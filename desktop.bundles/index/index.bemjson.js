@@ -16,7 +16,7 @@ module.exports = {
     scripts: [{ elem: "js", url: "index.min.js" }],
     content: [
         {
-            mix: { block: "index" },
+            /* mix: { block: "index" }, */
             block: "container",
             content: [
                 { block: "header" },
