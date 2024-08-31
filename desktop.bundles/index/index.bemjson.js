@@ -15,5 +15,5 @@ module.exports = {
     ],
     scripts: [{ elem: "js", url: "index.min.js" }],
     mods: { theme: "islands" },
-    content: [""],
+    content: [],
 };
