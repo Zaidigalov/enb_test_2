@@ -1,6 +1,6 @@
 module.exports = {
     block: "page",
-    title: "Title of the page",
+    title: "test 2",
     favicon: "/favicon.ico",
     head: [
         { elem: "meta", attrs: { name: "description", content: "" } },
@@ -14,6 +14,16 @@ module.exports = {
         { elem: "css", url: "index.min.css" },
     ],
     scripts: [{ elem: "js", url: "index.min.js" }],
-    mods: { theme: "islands" },
-    content: [],
+    content: [
+        {
+            mix: { block: "index" },
+            block: "container",
+            content: [
+                { block: "header" },
+                { block: "aside" },
+                { block: "main" },
+                { block: "footer" },
+            ],
+        },
+    ],
 };
